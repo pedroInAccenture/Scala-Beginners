@@ -24,8 +24,8 @@ object variables extends App {
   lazy val z = 100
   println(w)
 
-  val l = LazyList(1, 2, 3, 4)
-  println(l.headOption)
+//  val l = LazyList(1, 2, 3, 4)
+//  println(l.headOption)
 }
 
 object tiposNumericos extends App {
@@ -128,7 +128,7 @@ object listasexample extends App {
   val emptyList: List[Nothing] = List()
 
   val booksList: List[String] = List("Beginning Scala", "Beginning Groovy", "Beginning Java")
-  booksList.appended("newBook")
+//  booksList.appended("newBook")
   booksList + "nuevo libro"
   booksList.take(1)
 }

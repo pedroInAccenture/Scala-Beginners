@@ -8,6 +8,7 @@ object HOFsCurries_3 extends App {
 
   def calcular(f: Int => Int, v: Int) = f(v)
   def sum(v: Int) = v + v
+
   val s = calcular(sum,2)
 
 
